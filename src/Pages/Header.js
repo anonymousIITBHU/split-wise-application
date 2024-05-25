@@ -46,7 +46,6 @@ function Header() {
   return (
     <>
 
-
       <div className="header" onClick={navigateToHome}>Cash-Flow 💸</div>
 
       <div className="noInputClass" >

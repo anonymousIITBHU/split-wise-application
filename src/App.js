@@ -19,6 +19,7 @@ function App() {
   }
 
   return (
+    <>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Header />}>
@@ -33,6 +34,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    </>
   );
 }
 
